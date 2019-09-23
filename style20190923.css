@@ -1,0 +1,53 @@
+/*background image for website*/
+
+body{
+font-family: "Verdana", "Times New Roman", sans serif;
+color: #000000;
+background-image: url("images/flowers.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+h1 {
+font-size: 1.3em;
+text-align: center;
+/*color: #3ec;*/
+color: #ffffff;
+}
+
+h2 {
+font-size: 1.3em;
+text-align: center;
+/*color: #3ec;*/
+/*color: #cb98f5;*/
+color: #ffffff;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+border-collapse: collapse;
+}
+/*The rectangles surrounding the class names*/
+tr {
+border: 1px solid #ffffff;
+text-align: center;
+background-color:#cb98f5;
+}
+
+/*The rectangles at the top of the table*/
+th {
+text-align: center;
+color: #ffffff;
+background-color: #98acf5;
+}
+
+/*centers the image on the aboutme page*/
+.center {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom: auto;
+	width:50%;
+}
